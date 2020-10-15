@@ -1,0 +1,286 @@
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(1.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  html, body,
+  ul, ol, li,
+  h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .contents {
+    padding-bottom: 80px;
+    background-color: #0c3a20c0;
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    color: #acd3c6;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .daftar {
+    float: left;
+    width: 20%;
+  }
+  
+  img {
+    position: relative;
+  }
+  
+  .icon {
+    height: 150px;
+    width: 150px;
+  }
+  
+  p {
+    padding-top: 20px;
+    width: 100%;
+  } 
+  
+  .nama {
+    font-size: 15px;
+    color: #eeeeee;
+  }
+  
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    font-size: 15px;
+    color: #c0c0c0;
+  }
+  
+  .txt-contents2 {
+    padding-top: 5px;
+    font-size: 11px;
+    color: #c0c0c0;
+  }
+  
+  .clear {
+    clear: left;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical
+  }
+  
+   input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  .contact-submit{
+    background-color: #5dca88;
+    color:white;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+
+  .contact-submit:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  
+ .contact-us {
+    border-radius: 5px;
+    background-color:#113320c0;
+    padding: 20px;
+  }
+
+  .contact-us h3{
+    font-size: 20px;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 20px;
+  }
+  
+  footer img {
+    width: 125px;
+    
+  }
+  
+  footer p {
+    color: #000000;
+    font-size: 20px;
+  }
+  
+  footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .footer-list {
+      border-top: #000000 solid 2px;
+      padding-top: 20px;
+      text-align: center;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .header-list {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(5, 144, 172, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 60px;
+    margin-top: 20px;
+    padding-left: 20px;;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+
+  .menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display:none;
+  }
+
+  
+  /* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .lesson {
+      width: 50%;
+      margin-bottom: 50px;
+    }
+    
+    .top-wrapper h1 {
+      font-size: 32px;
+    }
+    
+    .heading h2 {
+      font-size: 20px;
+    }
+  }
+  
+  /* Untuk Smartphone */
+  @media all and (max-width: 670px) {
+    .lesson {
+      width: 100%;
+    }
+    
+   
+    .header-right {
+      display: none;
+    }
+    
+   
+    .menu-icon {
+      display: block;
+    }
+  }
